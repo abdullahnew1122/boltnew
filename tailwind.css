@@ -1,0 +1,62 @@
+@import './src/styles/tokens.css';
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --1: -2px -2px 30px 0px rgba(0, 0, 0, 0.08);
+  --body-md-bold-font-family: "URW DIN Arabic", Helvetica;
+  --body-md-bold-font-size: 14px;
+  --body-md-bold-font-style: normal;
+  --body-md-bold-font-weight: 700;
+  --body-md-bold-letter-spacing: 0px;
+  --body-md-bold-line-height: normal;
+  --body-md-medium-font-family: "URW DIN Arabic", Helvetica;
+  --body-md-medium-font-size: 14px;
+  --body-md-medium-font-style: normal;
+  --body-md-medium-font-weight: 500;
+  --body-md-medium-letter-spacing: 0px;
+  --body-md-medium-line-height: normal;
+  --body-md-semibold-font-family: "URW DIN Arabic", Helvetica;
+  --body-md-semibold-font-size: 14px;
+  --body-md-semibold-font-style: normal;
+  --body-md-semibold-font-weight: 400;
+  --body-md-semibold-letter-spacing: 0px;
+  --body-md-semibold-line-height: normal;
+  --body-sm-bold-font-family: "URW DIN Arabic", Helvetica;
+  --body-sm-bold-font-size: 12px;
+  --body-sm-bold-font-style: normal;
+  --body-sm-bold-font-weight: 700;
+  --body-sm-bold-letter-spacing: 0px;
+  --body-sm-bold-line-height: normal;
+  --body-sm-medium-font-family: "URW DIN Arabic", Helvetica;
+  --body-sm-medium-font-size: 12px;
+  --body-sm-medium-font-style: normal;
+  --body-sm-medium-font-weight: 500;
+  --body-sm-medium-letter-spacing: 0px;
+  --body-sm-medium-line-height: normal;
+  --body-sm-regular-font-family: "URW DIN Arabic", Helvetica;
+  --body-sm-regular-font-size: 12px;
+  --body-sm-regular-font-style: normal;
+  --body-sm-regular-font-weight: 400;
+  --body-sm-regular-letter-spacing: 0px;
+  --body-sm-regular-line-height: normal;
+  --body-sm-semibold-font-family: "URW DIN Arabic", Helvetica;
+  --body-sm-semibold-font-size: 12px;
+  --body-sm-semibold-font-style: normal;
+  --body-sm-semibold-font-weight: 400;
+  --body-sm-semibold-letter-spacing: 0px;
+  --body-sm-semibold-line-height: normal;
+  --heading-sm-bold-font-family: "URW DIN Arabic", Helvetica;
+  --heading-sm-bold-font-size: 20px;
+  --heading-sm-bold-font-style: normal;
+  --heading-sm-bold-font-weight: 700;
+  --heading-sm-bold-letter-spacing: 0px;
+  --heading-sm-bold-line-height: normal;
+  --radius: 0.5rem;
+}
